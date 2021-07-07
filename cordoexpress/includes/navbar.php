@@ -16,8 +16,7 @@
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
@@ -53,9 +52,9 @@
 
       <h1 class="logo"><a href="index.php"><img src="../assets/img/logoPrincipal.png" ></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
+      
 
-      <nav id="navbar" class="navbar">
+      <nav id="navbar" class="navbar" >
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
           <li><a class="nav-link scrollto" href="#about">Nosotros</a></li>
@@ -69,21 +68,44 @@
 
 
   <!-- ===== Carrousel ====== -->
-  <div class="portfolio-details-slider swiper-container">
-    <div class="swiper-wrapper align-items-center">
-          <div class="swiper-slide">
-             <img src="https://picsum.photos/id/876/1920/1080" alt="">
-          </div>
-          <div class="swiper-slide">
-              <img src="https://picsum.photos/id/278/1920/1080" alt="">
-          </div>
-          <div class="swiper-slide">
-              <img src="https://picsum.photos/id/432/1920/1080" alt="">
-          </div>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="../assets/img/1.jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+    <p class="heading animated flipInX delay-1s ">BOOTSTRAP 4 ANIMATED CAROUSEL</p>
+    <p class="sub-heading animated rollIn delay-2s">CODE LINK GIVEN IN VIDEO DESCRIPTION</p>
+    <a class="btn btn-lg btn-danger mt-5 animated infinite bounce delay-2s">LIKE & SHARE</a>
+  </div>
     </div>
-        <div class="swiper-pagination"></div>
+    
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../assets/img/2.jpg" alt="Second slide">
+      <div class="carousel-caption d-none d-md-block">
+   <p class="heading animated flipInX delay-1s ">BOOTSTRAP 4 ANIMATED CAROUSEL</p>
+    <p class="sub-heading animated rollIn delay-2s">CODE LINK GIVEN IN VIDEO DESCRIPTION</p>
+    <a class="btn btn-lg btn-danger mt-5 animated infinite bounce delay-2s">SUBSCRIBE</a>
+  </div>
     </div>
+    
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
   <!-- ==== End Carrousel ==== -->
+
 
 
   <div id="preloader"></div>
