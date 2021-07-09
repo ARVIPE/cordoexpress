@@ -16,7 +16,6 @@
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
@@ -24,6 +23,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  
 
 </head>
 
@@ -49,11 +49,9 @@
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
-
       <h1 class="logo"><a href="index.php"><img src="../assets/img/logoPrincipal.png" ></a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
       
-
+      <!-- Uncomment below if you prefer to use an image logo -->
       <nav id="navbar" class="navbar" >
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
@@ -68,43 +66,102 @@
 
 
   <!-- ===== Carrousel ====== -->
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../assets/img/1.jpg" alt="First slide">
-      <div class="carousel-caption d-none d-md-block">
-    <p class="heading animated flipInX delay-1s ">BOOTSTRAP 4 ANIMATED CAROUSEL</p>
-    <p class="sub-heading animated rollIn delay-2s">CODE LINK GIVEN IN VIDEO DESCRIPTION</p>
-    <a class="btn btn-lg btn-danger mt-5 animated infinite bounce delay-2s">LIKE & SHARE</a>
-  </div>
+  <header class="hero-text">
+  <div class="hero" data-arrows="true" data-autoplay="true">
+    <!--.hero-slide-->
+
+    <div class="hero-slide">
+      <img alt="Mars Image" class="img-responsive cover" src="../assets/img/pallet1.jpg">
+      <div class="header-content text-white position-absolute slide-content col-lg-4">
+        <h1 class="mb-4">Bienvenido a <span class="d-block font-weight-bold">CordoExpress</span></h1>
+        <a class="btn btn-primary btn-lg w-max mt-2" href="#" tabindex="0">Contacto</a>
+      </div>
     </div>
-    
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../assets/img/2.jpg" alt="Second slide">
-      <div class="carousel-caption d-none d-md-block">
-   <p class="heading animated flipInX delay-1s ">BOOTSTRAP 4 ANIMATED CAROUSEL</p>
-    <p class="sub-heading animated rollIn delay-2s">CODE LINK GIVEN IN VIDEO DESCRIPTION</p>
-    <a class="btn btn-lg btn-danger mt-5 animated infinite bounce delay-2s">SUBSCRIBE</a>
-  </div>
+    <!--.hero-slide-->
+
+    <div class="hero-slide">
+      <img alt="Mars Image" class="img-responsive cover" src="../assets/img/pallet2.jpg">
+      <div class="header-content text-white position-absolute slide-content col-lg-4">
+        <h1 class="mb-4">CordoExpress</h1>
+        <p class="font-weight-bold">Confíe su mercancía en un operador de transporte de amplia experiencia</p>
+        <a class="btn btn-primary btn-lg w-max mt-2" href="#" tabindex="0">Contacto</a>
+      </div>
     </div>
-    
+    <!--.hero-slide-->
+
+    <div class="hero-slide">
+      <img alt="Mars Image" class="img-responsive cover" src="../assets/img/Network-News-2.jpg">
+      <div class="header-content text-white position-absolute slide-content col-lg-4">
+      <h1 class="mb-4">Transportes</h1>
+        <p>Transporte de por carretera, fundamentalmente desarrollando logística, transporte y distribución en la provincia de Córdoba. </p>
+        <a class="btn btn-primary btn-lg w-max mt-2" href="#" tabindex="0">Contacto</a>
+      </div>
+    </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+  <!--.hero-->
+</header>
+  <!-- ==== End Carrousel ==== -->
+
+
+<!-- === Start description === --->
+<div class="container" style="margin-top: 50px; margin-bottom: 200px;">
+
+<hr style="height:2px;border:none;color:#7c7c7c;;background-color:#7c7c7c;;" />
+<div class="row">
+  <div class="col" style="margin-top: 30px">
+  <h3><span class="tituloDescripcion">CordoExpress el mejor servicio posible.</span></h3>
+  <p>Si quiere más información sobre nuestros servicios puede llamarnos o utilizar la página de <a href="contacto.php">contacto</a> que aparece en la web. </br> Servicios: Transporte de carga paletizada fraccionada, completa, grupaje, cualquier servicio que nos demande en transporte nacional (doméstico) y Europeo.</p>
+  </div>
+  <div class="col">
+  <img src="../assets/img/descripcion1.jpg"  style="width: 600px; height: 300px;">
+  </div>
+</div>
+<hr style="height:2px;border:none;color:#7c7c7c;;background-color:#7c7c7c;;" />
+<div class="row">
+  <div class="col">
+    <h4 class="tituloDescripcion" style="text-align: center;" >Servicios Palletways</h4>
+    <img src="../assets/img/descripcion2.png" style="width: 500px; height: 300px;">
+    <p>Servicios de transporte paletizado en 24 y 48 horas en la Peninsula Ibérica y servicios paneuropeos a partir de 36 horas.</p>
+  </div>
+  <div class="col">
+    <h4 class="tituloDescripcion" style="text-align: center;">Operador Logistico</h4>
+    <img src="../assets/img/descripcion3.jpg" style="width: 500px; height: 300px;">
+    <p>¿Necesitas almacenamiento? ¿Tienes cargas fraccionadas? ¿Cargas completas? Pidenos cotización sin compromiso. Ofrecemos los </br>mejores servicios.</p>
+  </div>
+</div>
+<hr style="height:2px;border:none;color:#7c7c7c;;background-color:#7c7c7c;;" />
+
+
+
 </div>
 
-  <!-- ==== End Carrousel ==== -->
+
+
+
+
+
+<!-- === End description === --->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -128,3 +185,54 @@
 </body>
 
 </html>
+
+<script>
+  jQuery(document).ready(function ($) {
+	  $('.hero').slick({
+		dots: true,
+        infinite: true,
+        speed: 500,
+        fade: !0,
+        cssEase: 'linear',
+		slidesToShow: 1,
+		slidesToScroll: 1,
+        autoplay: true,
+		autoplaySpeed: 3000,
+        draggable: false,
+		arrows: false,
+		responsive: [
+	    {
+		breakpoint: 1024,
+		settings: {
+		slidesToShow: 1,
+		slidesToScroll: 1,
+        infinite: true
+		          }
+        },
+        {
+		breakpoint: 768,
+		settings: {
+        draggable: true,
+		          }
+		},
+		{
+		breakpoint: 600,
+		settings: {
+        slidesToShow: 1,
+        draggable: true,
+		slidesToScroll: 1
+			      }
+		},
+		{
+		breakpoint: 480,
+		settings: {
+        slidesToShow: 1,
+        draggable: true,
+		slidesToScroll: 1
+		          }
+		}
+	
+			      ]
+                  });
+        });	
+</script>
