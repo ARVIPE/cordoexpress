@@ -12,9 +12,7 @@ include("includes/a_config.php");
 <body class="fondoPrincipal">
     <div class="container-fluid p-0">
 
-   
         <?php include("includes/navbar.php"); ?>
-      
 
 
         <main>

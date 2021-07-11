@@ -49,7 +49,7 @@
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
-      <h1 class="logo"><a href="index.php"><img src="../assets/img/logoPrincipal.png" ></a></h1>
+      <h1 class="logo"><a href="index.php"><img src="https://i.ibb.co/19K9mHV/logo-Principal.png" ></a></h1>
       
       <!-- Uncomment below if you prefer to use an image logo -->
       <nav id="navbar" class="navbar" >
