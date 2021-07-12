@@ -45,7 +45,7 @@
     </div>
     <div class="col-md-6 col-lg-6 col-xl-6 col-sm-0" data-aos="fade-right">
 
-      <img data-aos="fade-right" data-aos-delay="100" src="https://i.ibb.co/4dRZ9Yy/descripcion1.jpg" class="imagenDescripcion1">
+      <img data-aos="fade-right" data-aos-delay="100" src="https://i.ibb.co/4dRZ9Yy/descripcion1.jpg" class="imagenDescripcion" >
 
     </div>
   </div>
@@ -78,7 +78,7 @@
           <p>Calle Ing. Ribera, 13, 14013 Córdoba ES ES-14009</p>
         </div>
       </div>
-
+ 
       <div class="col-lg-3 col-md-6">
         <div class="info-box  mb-4">
           <i class="bx bx-envelope"></i>
