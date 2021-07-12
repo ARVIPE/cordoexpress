@@ -6,8 +6,6 @@
 <meta name="viewport" content="width=device-width">
 <link rel="shortcut icon" href="https://i.ibb.co/Hdczzbr/logo.png">
 
-<!--Tipografía-->
-<link href="https://fonts.googleapis.com/css2?family=Gotu&family=Laila:wght@300&display=swap" rel="stylesheet">
 
 <!-- CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
@@ -37,3 +35,4 @@
 
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
