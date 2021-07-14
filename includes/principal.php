@@ -7,7 +7,7 @@
       <img alt="Mars Image" class="img-responsive cover" src="https://i.ibb.co/BB7rtQm/1.jpg">
       <div class="header-content text-white position-absolute col-lg-4" data-aos="fade-in" data-aos-delay="100">
         <h1 class="mb-4">Bienvenido a <span class="d-block font-weight-bold">CordoExpress</span></h1>
-        <a class="btn btn-primary btn-lg w-max mt-2" href="#" tabindex="0">Contacto</a>
+        <a class="btn btn-primary btn-lg w-max mt-2" href="contacto.php" tabindex="0">Contacto</a>
       </div>
     </div>
     <!--.hero-slide-->
@@ -17,7 +17,7 @@
       <div class="header-content text-white position-absolute slide col-lg-4" data-aos="fade-right" data-aos-delay="100">
         <h1 class="mb-4">CordoExpress</h1>
         <p class="font-weight-bold">Confíe su mercancía en un operador de transporte de amplia experiencia</p>
-        <a class="btn btn-primary btn-lg w-max mt-2" href="#" tabindex="0">Contacto</a>
+        <a class="btn btn-primary btn-lg w-max mt-2" href="contacto.php" tabindex="0">Contacto</a>
       </div>
     </div>
     <!--.hero-slide-->
@@ -27,7 +27,7 @@
       <div class="header-content text-white position-absolute slide col-lg-4" data-aos="fade-right" data-aos-delay="100">
         <h1 class="mb-4">Transportes</h1>
         <p>Transporte de por carretera, fundamentalmente desarrollando logística, transporte y distribución en la provincia de Córdoba. </p>
-        <a class="btn btn-primary btn-lg w-max mt-2" href="#" tabindex="0">Contacto</a>
+        <a class="btn btn-primary btn-lg w-max mt-2" href="contacto.php" tabindex="0">Contacto</a>
       </div>
     </div>
   </div>
@@ -66,38 +66,6 @@
 
 
 <!-- === End description === --->
-
-<!-- === Contact === --->
-<div class="container">
-  <div class="contact" data-aos="fade-up" data-aos-delay="100">
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="info-box mb-4">
-          <i class="bx bx-map"></i>
-          <h3>Nuestra dirección</h3>
-          <p>Calle Ing. Ribera, 13, 14013 Córdoba ES ES-14009</p>
-        </div>
-      </div>
- 
-      <div class="col-lg-3 col-md-6">
-        <div class="info-box  mb-4">
-          <i class="bx bx-envelope"></i>
-          <h3>Nuestro correo</h3>
-          <p>contabilidad@cordoexpress.es</p>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6">
-        <div class="info-box  mb-4">
-          <i class="bx bx-phone-call"></i>
-          <h3>Llamanos</h3>
-          <p>+34 957 42 11 11</p>
-        </div>
-      </div>
-    </div>
-  
-  </div>
-</div>
 
 
 
