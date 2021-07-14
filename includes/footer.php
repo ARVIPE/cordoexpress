@@ -13,10 +13,10 @@
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-6 footer-links">
                     <h4>Enlaces relevantes</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Inicio</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Nosotros</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Servicios</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Politica de privacidad</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="index.php">Inicio</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="nosotros.php">Nosotros</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="servicios.php">Servicios</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="">Politica de privacidad</a></li>
                     </ul>
                 </div>
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-6 footer-links">
