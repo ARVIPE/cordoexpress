@@ -44,10 +44,30 @@
       
       <nav id="navbar" class="navbar" >
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
-          <li><a class="nav-link scrollto" href="#about">Nosotros</a></li>
-          <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Contacto</a></li>
+           
+          <?php 
+            if($_SERVER["SCRIPT_NAME"] == "/index.php"){
+              ?><li><a class="nav-link scrollto active" href="index.php">Inicio</a></li><?php
+            }else{
+              ?><li><a class="nav-link scrollto" href="index.php">Inicio</a></li><?php
+            }
+            if($_SERVER["SCRIPT_NAME"] == "/nosotros.php"){
+              ?><li><a class="nav-link scrollto active" href="nosotros.php">Nosotros</a></li><?php
+            }else{
+              ?><li><a class="nav-link scrollto" href="nosotros.php">Nosotros</a></li><?php
+            }
+            if($_SERVER["SCRIPT_NAME"] == "/servicios.php"){
+              ?><li><a class="nav-link scrollto active" href="servicios.php">Servicios</a></li><?php
+            }else{
+              ?><li><a class="nav-link scrollto" href="servicios.php">Servicios</a></li><?php
+            }
+            if($_SERVER["SCRIPT_NAME"] == "/contacto.php"){
+              ?><li><a class="nav-link scrollto active" href="contacto.php">Contacto</a></li><?php
+            }else{
+              ?><li><a class="nav-link scrollto" href="contacto.php">Contacto</a></li><?php
+            }
+          ?>
+
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
