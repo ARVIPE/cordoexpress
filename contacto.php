@@ -26,7 +26,7 @@ include("includes/a_config.php");
                             </div>
 
                             <div class="col-lg-6">
-                                <form action="" method="post" class="php-email-form">
+                                <form action="" method="post" >
                                     <div class="row">
                                         <div class="col form-group">
                                             <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" required>
@@ -47,7 +47,7 @@ include("includes/a_config.php");
                                         <div class="sent-message">Your message has been sent. Thank you!</div>
                                     </div>-->
                             
-                                    <div class="text-center"><button type="submit" name="enviar">Send Message</button></div>
+                                    <div class="text-center"><button type="submit" class="btn btn-primary" name="enviar">Send Message</button></div>
                                     
                                 </form>
 
