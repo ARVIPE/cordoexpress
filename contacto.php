@@ -61,7 +61,7 @@ include("includes/a_config.php");
                                             $recipient = 'artfdl963@gmail.com';
 
                                             $subject = $_POST['subject'];
-                                            $message = 'ey';
+                                            $message =  $_POST['message'];
                                             $headers = 'From:' . $sender;
 
                                             if (mail($recipient, $subject, $message, $headers)) {
