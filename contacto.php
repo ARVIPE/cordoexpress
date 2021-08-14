@@ -32,7 +32,7 @@ include("includes/a_config.php");
                                             <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" required>
                                         </div>
                                         <div class="col form-group">
-                                            <input type="email" class="form-control" name="email" id="email" placeholder="Tu Correo" required>
+                                            <input type="text" class="form-control" name="email" id="email" placeholder="Tu Correo" required>
                                         </div>
                                     </div>
                                     <div class="form-group">
@@ -41,11 +41,12 @@ include("includes/a_config.php");
                                     <div class="form-group">
                                         <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
                                     </div>
-                                    <div class="my-3">
+                                   <!-- <div class="my-3">
                                         <div class="loading">Loading</div>
                                         <div class="error-message"></div>
                                         <div class="sent-message">Your message has been sent. Thank you!</div>
-                                    </div>
+                                    </div>-->
+                                    <div class="sent-message">Your message has been sent. Thank you!</div>
                                     <div class="text-center"><button type="submit" name="enviar">Send Message</button></div>
                                 </form>
 
@@ -59,7 +60,7 @@ include("includes/a_config.php");
                                             $recipient = 'artfdl963@gmail.com';
 
                                             $subject = $_POST['subject'];
-                                            $message = $_POST['message'];
+                                            $message = 'ey';
                                             $headers = 'From:' . $sender;
 
                                             if (mail($recipient, $subject, $message, $headers)) {
