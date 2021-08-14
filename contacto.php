@@ -41,13 +41,9 @@ include("includes/a_config.php");
                                     <div class="form-group">
                                         <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
                                     </div>
-                                   <!-- <div class="my-3">
-                                        <div class="loading">Loading</div>
-                                        <div class="error-message"></div>
-                                        <div class="sent-message">Your message has been sent. Thank you!</div>
-                                    </div>-->
+                             
                             
-                                    <div class="text-center"><button type="submit" class="btn btn-primary" name="enviar">Send Message</button></div>
+                                    <div class="text-center"><button type="submit" class="btn btn-info" name="enviar">Send Message</button></div>
                                     
                                 </form>
 
@@ -65,10 +61,9 @@ include("includes/a_config.php");
                                             $headers = 'From:' . $sender;
 
                                             if (mail($recipient, $subject, $message, $headers)) {
-                                                ?><script>alert("your message has been sent");</script><?php
-                                                echo "Message accepted";
+                                                ?><script>alert("Tu mensaje ha sido enviado");</script><?php
                                             } else {
-                                                echo "Error: Message not accepted";
+                                                ?><script>alert("No se ha podido enviar el mensaje contactenos o intentelo mas tarde");</script><?php
                                             }
                                         }
                                     }
