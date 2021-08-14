@@ -1,14 +1,11 @@
 <?php
 
-if (isset($_POST['enviar'])) {
-    if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject']) && !empty($_POST['message'])) {
 
-
-        $sender = $_POST['email'];
+        $sender = 'prueba@hotmail.com';
         $recipient = 'artfdl963@gmail.com';
 
-        $subject = $_POST['subject'];
-        $message = $_POST['message'];
+        $subject = 'esto es una prueba';
+        $message = 'esto es una prueba';
         $headers = 'From:' . $sender;
 
         if (mail($recipient, $subject, $message, $headers)) {
@@ -16,7 +13,5 @@ if (isset($_POST['enviar'])) {
         } else {
             echo "Error: Message not accepted";
         }
-    }
-}
 
 ?>

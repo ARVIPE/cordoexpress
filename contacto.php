@@ -26,7 +26,7 @@ include("includes/a_config.php");
                             </div>
 
                             <div class="col-lg-6">
-                                <form action="correo.php" method="post" role="form" class="php-email-form">
+                                <form action="/" method="post" role="form" class="php-email-form">
                                     <div class="row">
                                         <div class="col form-group">
                                             <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" required>
@@ -48,6 +48,29 @@ include("includes/a_config.php");
                                     </div>
                                     <div class="text-center"><button type="submit" name="enviar">Send Message</button></div>
                                 </form>
+
+                                <?php
+
+                                    if (isset($_POST['enviar'])) {
+                                        if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject']) && !empty($_POST['message'])) {
+
+
+                                            $sender = $_POST['email'];
+                                            $recipient = 'artfdl963@gmail.com';
+
+                                            $subject = $_POST['subject'];
+                                            $message = $_POST['message'];
+                                            $headers = 'From:' . $sender;
+
+                                            if (mail($recipient, $subject, $message, $headers)) {
+                                                echo "Message accepted";
+                                            } else {
+                                                echo "Error: Message not accepted";
+                                            }
+                                        }
+                                    }
+    
+                                ?>
                               
                             </div>
 
