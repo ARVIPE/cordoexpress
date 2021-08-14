@@ -7,6 +7,33 @@ include("includes/a_config.php");
 
 <head>
     <?php include("includes/MetaTags.php"); ?>
+    <script type="text/javascript">
+        var onloadCallback = function() {
+            grecaptcha.render('html_element', {
+                'sitekey': '6LfQLf4bAAAAAO6uS3fPIgs_uYp4VJYcB6iV23Gx'
+            });
+
+
+            setInterval(function() {
+                var result = grecaptcha.getResponse();
+                if (result.length == 0) {
+                    console.log("No");
+                } else {
+                    <?php $_SESSION["captcha"] = "yes"; ?>
+                    
+                }
+            }, );
+            
+
+
+
+
+
+
+
+        };
+    </script>
+
 </head>
 
 <body class="fondoPrincipal">
@@ -26,7 +53,7 @@ include("includes/a_config.php");
                             </div>
 
                             <div class="col-lg-6">
-                                <form action="" method="post" >
+                                <form action="" method="post">
                                     <div class="row">
                                         <div class="col form-group">
                                             <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" required>
@@ -41,15 +68,27 @@ include("includes/a_config.php");
                                     <div class="form-group">
                                         <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
                                     </div>
-                             
-                            
-                                    <div class="text-center"><button type="submit" class="btn btn-info" name="enviar">Send Message</button></div>
-                                    
+
+
+                                    <div style="margin-left: 22%;" id="html_element" name="enviar"></div>
+
+                                    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
+                                    </script>
+
+                                    <div class="text-center"><button type="submit" class="btn btn-info" name="enviar">Enviar mensaje</button></div>
+
                                 </form>
+
+
+
 
                                 <?php
 
-                                    if (isset($_POST['enviar'])) {
+                                if (isset($_POST['enviar'])) {
+               
+                                    if ($_SESSION["captcha"] == "yes") {
+
+
                                         if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject']) && !empty($_POST['message'])) {
 
 
@@ -61,26 +100,32 @@ include("includes/a_config.php");
                                             $headers = 'From:' . $sender;
 
                                             if (mail($recipient, $subject, $message, $headers)) {
-                                                ?><script>alert("Tu mensaje ha sido enviado");</script><?php
-                                            } else {
-                                                ?><script>alert("No se ha podido enviar el mensaje contactenos o intentelo mas tarde");</script><?php
-                                            }
+                                                unset($_SESSION["captcha"]);
+                                            ?><script>
+                                                    alert("Tu mensaje ha sido enviado");
+                                                </script><?php
+                                                        } else {
+                                                            ?><script>
+                                                    alert("No se ha podido enviar el mensaje contactenos o intentelo mas tarde");
+                                                </script><?php
+                                                        }
                                         }
+                                    }else{
+                                        ?><script>alert("Tienes que realizar el captcha")</script><?php
                                     }
+                                }
 
-                                 
-                                ?>
 
-                                
-                                
-                                
-                          
-                              
+
+
+                                                            ?>
+
                             </div>
 
                         </div>
 
                     </div>
+
 
                     <div class="container" style="margin-top: 30px;">
                         <div class="contact" data-aos="fade-up" data-aos-delay="100">
@@ -132,6 +177,7 @@ include("includes/a_config.php");
 <script src="assets/vendor/purecounter/purecounter.js"></script>
 <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
 
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
