@@ -46,7 +46,7 @@ include("includes/a_config.php");
                                         <div class="error-message"></div>
                                         <div class="sent-message">Your message has been sent. Thank you!</div>
                                     </div>-->
-                                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                            
                                     <div class="text-center"><button type="submit" name="enviar">Send Message</button></div>
                                 </form>
 
@@ -64,6 +64,7 @@ include("includes/a_config.php");
                                             $headers = 'From:' . $sender;
 
                                             if (mail($recipient, $subject, $message, $headers)) {
+                                                ?><script>alert("your message has been sent");</script><?php
                                                 echo "Message accepted";
                                             } else {
                                                 echo "Error: Message not accepted";
