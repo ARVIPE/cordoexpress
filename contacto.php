@@ -1,5 +1,8 @@
 <?php
 include("includes/a_config.php");
+unset($_SESSION["captcha"]);
+session_destroy();
+session_start();
 ?>
 
 <!DOCTYPE html>
@@ -16,14 +19,12 @@ include("includes/a_config.php");
 
             setInterval(function() {
                 var result = grecaptcha.getResponse();
-                if (result.length == 0) {
-                    console.log("No");
-                } else {
+                console.log(result.length);
+                if (result.length != 0) {
                     <?php $_SESSION["captcha"] = "yes"; ?>
-                    
                 }
             }, );
-            
+
 
 
 
@@ -83,42 +84,44 @@ include("includes/a_config.php");
 
 
                                 <?php
+                                echo $_SESSION["captcha"];
+                                if ($_SESSION["captcha"] == "yes") {
+                                        if (isset($_POST['enviar'])) {
 
-                                if (isset($_POST['enviar'])) {
-               
-                                    if ($_SESSION["captcha"] == "yes") {
-
-
-                                        if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject']) && !empty($_POST['message'])) {
+                                            if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject']) && !empty($_POST['message'])) {
 
 
-                                            $sender = $_POST['email'];
-                                            $recipient = 'artfdl963@gmail.com';
+                                                $sender = $_POST['email'];
+                                                $recipient = 'artfdl963@gmail.com';
 
-                                            $subject = $_POST['subject'];
-                                            $message =  $_POST['message'];
-                                            $headers = 'From:' . $sender;
+                                                $subject = $_POST['subject'];
+                                                $message =  $_POST['message'];
+                                                $headers = 'From:' . $sender;
 
-                                            if (mail($recipient, $subject, $message, $headers)) {
-                                                unset($_SESSION["captcha"]);
-                                            ?><script>
-                                                    alert("Tu mensaje ha sido enviado");
-                                                </script><?php
-                                                        } else {
-                                                            ?><script>
-                                                    alert("No se ha podido enviar el mensaje contactenos o intentelo mas tarde");
-                                                </script><?php
+                                               
+                                                if (mail($recipient, $subject, $message, $headers)) {
+                                                    
+                                    ?><script>
+                                                        alert("Tu mensaje ha sido enviado");
+                                                    </script><?php
+                                                            } else {
+                                                                ?><script>
+                                                        alert("No se ha podido enviar el mensaje contactenos o intentelo mas tarde");
+                                                    </script><?php
+                                                            }
                                                         }
-                                        }
-                                    }else{
-                                        ?><script>alert("Tienes que realizar el captcha")</script><?php
-                                    }
-                                }
+                                                    
+                                                                ?><script>
+                                                
+                                            </script><?php
+                                                    }
+                                }else{?>
+                                    <script>alert("Tienes que realizar el captcha");</script><?php
+                                }?>
+                                            
 
 
-
-
-                                                            ?>
+                                                
 
                             </div>
 
