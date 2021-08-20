@@ -1,8 +1,7 @@
 <?php
 include("includes/a_config.php");
-unset($_SESSION["captcha"]);
-session_destroy();
-session_start();
+
+
 ?>
 
 <!DOCTYPE html>
@@ -16,13 +15,13 @@ session_start();
                 'sitekey': '6LfQLf4bAAAAAO6uS3fPIgs_uYp4VJYcB6iV23Gx'
             });
 
-
             setInterval(function() {
                 var result = grecaptcha.getResponse();
-                console.log(result.length);
-                if (result.length != 0) {
-                    <?php $_SESSION["captcha"] = "yes"; ?>
-                }
+                document.cookie = "captcha=" + result.length;
+                var x = document.cookie;
+                console.log(document.cookie);
+                
+                
             }, );
 
 
@@ -34,6 +33,8 @@ session_start();
 
         };
     </script>
+
+   
 
 </head>
 
@@ -80,48 +81,50 @@ session_start();
 
                                 </form>
 
+                                
+                                
+                                <?php   
+                                    if (isset($_COOKIE["captcha"])) {
+                                        if ($_COOKIE["captcha"] != "0") {
+                                            if (isset($_POST['enviar'])) {
+
+                                                if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject']) && !empty($_POST['message'])) {
 
 
+                                                    $sender = $_POST['email'];
+                                                    $recipient = 'artfdl963@gmail.com';
 
-                                <?php
-                                echo $_SESSION["captcha"];
-                                if ($_SESSION["captcha"] == "yes") {
-                                        if (isset($_POST['enviar'])) {
-
-                                            if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject']) && !empty($_POST['message'])) {
+                                                    $subject = $_POST['subject'];
+                                                    $message =  $_POST['message'];
+                                                    $headers = 'From:' . $sender;
 
 
-                                                $sender = $_POST['email'];
-                                                $recipient = 'artfdl963@gmail.com';
+                                                    if (mail($recipient, $subject, $message, $headers)) {
 
-                                                $subject = $_POST['subject'];
-                                                $message =  $_POST['message'];
-                                                $headers = 'From:' . $sender;
-
-                                               
-                                                if (mail($recipient, $subject, $message, $headers)) {
-                                                    
-                                    ?><script>
-                                                        alert("Tu mensaje ha sido enviado");
-                                                    </script><?php
-                                                            } else {
-                                                                ?><script>
-                                                        alert("No se ha podido enviar el mensaje contactenos o intentelo mas tarde");
-                                                    </script><?php
+                                        ?><script>
+                                                            alert("Tu mensaje ha sido enviado");
+                                                        </script><?php
+                                                                } else {
+                                                                    ?><script>
+                                                            alert("No se ha podido enviar el mensaje contactenos o intentelo mas tarde");
+                                                        </script><?php
+                                                                }
                                                             }
+
+                                                                    ?><script>
+
+                                                </script><?php
                                                         }
-                                                    
-                                                                ?><script>
-                                                
+                                                    } else { ?>
+                                            <script>
+                                                alert("Tienes que realizar el captcha");
                                             </script><?php
                                                     }
-                                }else{?>
-                                    <script>alert("Tienes que realizar el captcha");</script><?php
-                                }?>
-                                            
+                                                    } ?>
 
 
-                                                
+
+
 
                             </div>
 
@@ -170,6 +173,9 @@ session_start();
 </body>
 
 </html>
+
+
+
 
 <!-- Vendor JS Files -->
 <script src="assets/vendor/aos/aos.js"></script>
