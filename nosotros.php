@@ -18,7 +18,7 @@ include("includes/a_config.php");
         <main>
             <section class="content">
 
-                <div data-aos="fade-right" data-aos-delay="100" class="color">
+                <div data-aos="fade-right" data-aos-delay="100" class="color" style="margin-top:20px;">
                     <h1>Nosotros</h1>
                 </div>
                 <div class="container">

@@ -17,7 +17,7 @@ include("includes/a_config.php");
 
         <main>
             <section class="content">
-                <div data-aos="fade-right" data-aos-delay="100" class="color">
+                <div data-aos="fade-right" data-aos-delay="100" class="color" style="margin-top: 20px;">
                     <h3>Así trabajamos</h1>
                 </div>
                 <img data-enlargeable width="600" data-aos="fade-right" data-aos-delay="100" class="img-fluid" src="https://i.ibb.co/2YDxhvM/02cf0906-80a0-4ff2-84a6-419762ae75f9.png" style="display:block !important; margin-left: auto; margin-right:auto; cursor: zoom-in">

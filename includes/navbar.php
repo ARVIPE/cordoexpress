@@ -61,6 +61,11 @@
             }else{
               ?><li><a class="nav-link scrollto" href="servicios.php">Servicios</a></li><?php
             }
+            if($_SERVER["SCRIPT_NAME"] == "/galeria.php"){
+              ?><li><a class="nav-link scrollto active" href="galeria.php">Galeria</a></li><?php
+            }else{
+              ?><li><a class="nav-link scrollto" href="galeria.php">Galeria</a></li><?php
+            }
             if($_SERVER["SCRIPT_NAME"] == "/contacto.php"){
               ?><li><a class="nav-link scrollto active" href="contacto.php">Contacto</a></li><?php
             }else{
