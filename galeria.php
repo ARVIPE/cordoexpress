@@ -1,28 +1,34 @@
+<?php
+include("includes/a_config.php");
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
     <?php include("includes/MetaTags.php"); ?>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
-    
+
     <link rel="stylesheet" href="./galeria/style.css">
 
 </head>
 
 <?php include("includes/navbar.php"); ?>
+
 <body>
     <!-- partial:index.partial.html -->
 
-    
+
     <body>
-    
+
         <div class="container">
             <div class="gallery row">
                 <!-- 3 -->
                 <div class="gallery-list col-md-4 col-xs-12">
                     <div class="image-grid">
-                        <img src="https://i.ibb.co/gm7vYYd/1.jpg" data-aos="fade" data-aos-delay="100" >
+                        <img src="https://i.ibb.co/gm7vYYd/1.jpg" data-aos="fade" data-aos-delay="100">
                         <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
                     </div>
                 </div>
@@ -46,15 +52,15 @@
                     <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe data-aos="fade-right" data-aos-delay="100" src="https://streamable.com/e/uhww31?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen allow="autoplay" style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <div class="gallery-list col-md-6 col-xs-12">
-                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe data-aos="fade-left" data-aos-delay="100" src="https://streamable.com/e/9326d8?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen allow="autoplay" style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe data-aos="fade-left" data-aos-delay="100" src="https://streamable.com/e/9326d8?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen allow="autoplay" style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <!-- 2 -->
 
                 <!-- 1 -->
                 <div class="gallery-list col-md-12 col-xs-12">
-                    <div class="image-grid">
+                    <div class="image-grid" style="height: 300px;">
                         <img data-aos="fade-right" data-aos-delay="100" src="https://i.ibb.co/V9NwtpC/01c0970d4c114aac5bd75225e08c2b8ce810b40899.jpg">
-                       
+
                         <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
                     </div>
                 </div>
@@ -63,28 +69,19 @@
                 <!-- 3 -->
                 <div class="gallery-list col-md-4 col-xs-12">
                     <div class="image-grid">
-                        <img src="https://static.pexels.com/photos/7919/pexels-photo.jpg">
-                        <figcaption>
-                            <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-                        </figcaption>
+                        <img src="https://i.ibb.co/9NYxW70/0145ade8ac30b2461ba2e2bd5c144621d0316e0923.jpg" data-aos="fade" data-aos-delay="100">
                         <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
                     </div>
                 </div>
                 <div class="gallery-list col-md-4 col-xs-12">
                     <div class="image-grid">
-                        <img src="https://static.pexels.com/photos/8879/pexels-photo.jpeg">
-                        <figcaption>
-                            <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-                        </figcaption>
+                        <img src="https://i.ibb.co/vHwccy6/01996f3e5b0832d7ddab252a620ae7f3845dcfce87.jpg" data-aos="fade">
                         <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
                     </div>
                 </div>
                 <div class="gallery-list col-md-4 col-xs-12">
                     <div class="image-grid">
-                        <img src="https://static.pexels.com/photos/126400/pexels-photo-126400.jpeg">
-                        <figcaption>
-                            <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-                        </figcaption>
+                        <img src="https://i.ibb.co/09S5W24/0145b5c4580b584ff090a20a3d88b306648898c974.jpg" data-aos="fade">
                         <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
                     </div>
                 </div>
@@ -93,49 +90,32 @@
                 <!-- 2 -->
                 <div class="gallery-list col-md-6 col-xs-12">
                     <div class="image-grid">
-                        <img src="https://static.pexels.com/photos/7919/pexels-photo.jpg">
-                        <figcaption>
-                            <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-                        </figcaption>
-                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/2wg1oe?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                     </div>
                 </div>
                 <div class="gallery-list col-md-6 col-xs-12">
                     <div class="image-grid">
-                        <img src="https://static.pexels.com/photos/8879/pexels-photo.jpeg">
-                        <figcaption>
-                            <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-                        </figcaption>
-                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/jxv70j?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                     </div>
                 </div>
                 <!-- 2 -->
 
                 <!-- 3 -->
                 <div class="gallery-list col-md-4 col-xs-12">
-                    <div class="image-grid">
-                        <img src="https://static.pexels.com/photos/7919/pexels-photo.jpg">
-                        <figcaption>
-                            <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-                        </figcaption>
+                <div class="image-grid">
+                        <img src="https://i.ibb.co/pvfxcTk/01ce4f448e149457f6036ba5005fe87de0d483cbc8.jpg" data-aos="fade">
                         <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
                     </div>
                 </div>
                 <div class="gallery-list col-md-4 col-xs-12">
-                    <div class="image-grid">
-                        <img src="https://static.pexels.com/photos/8879/pexels-photo.jpeg">
-                        <figcaption>
-                            <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-                        </figcaption>
+                <div class="image-grid">
+                        <img src="https://i.ibb.co/qB5bFQ2/019167cf3e0d601f785167cde521cc505866fa87ef.jpg" data-aos="fade">
                         <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
                     </div>
                 </div>
                 <div class="gallery-list col-md-4 col-xs-12">
-                    <div class="image-grid">
-                        <img src="https://static.pexels.com/photos/126400/pexels-photo-126400.jpeg">
-                        <figcaption>
-                            <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-                        </figcaption>
+                <div class="image-grid">
+                        <img src="https://i.ibb.co/XLX2bD3/01ca06ef8e2d9b270d60a254eaa0e5596defa48cf3.jpg" data-aos="fade">
                         <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
                     </div>
                 </div>
@@ -144,83 +124,28 @@
                 <!-- 2 -->
                 <div class="gallery-list col-md-6 col-xs-12">
                     <div class="image-grid">
-                        <img src="https://static.pexels.com/photos/7919/pexels-photo.jpg">
-                        <figcaption>
-                            <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-                        </figcaption>
+                        <img data-aos="fade-right" data-aos-delay="100" src="https://i.ibb.co/YbHQhV8/01eb17f06befeea70c446365ed85242c9e957a8d94.jpg" >
+
                         <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
                     </div>
                 </div>
                 <div class="gallery-list col-md-6 col-xs-12">
                     <div class="image-grid">
-                        <img src="https://static.pexels.com/photos/8879/pexels-photo.jpeg">
-                        <figcaption>
-                            <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-                        </figcaption>
+                        <img data-aos="fade-right" data-aos-delay="100"  src="https://i.ibb.co/fHC3vhM/01fcb64a5419d298b16055e851d21835c332d35cd2.jpg">
+
                         <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
                     </div>
                 </div>
                 <!-- 2 -->
 
 
-                <!-- 3 -->
-                <div class="gallery-list col-md-4 col-xs-12">
-                    <div class="image-grid">
-                        <img src="https://static.pexels.com/photos/7919/pexels-photo.jpg">
-                        <figcaption>
-                            <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-                        </figcaption>
-                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
-                    </div>
-                </div>
-                <div class="gallery-list col-md-4 col-xs-12">
-                    <div class="image-grid">
-                        <img src="https://static.pexels.com/photos/8879/pexels-photo.jpeg">
-                        <figcaption>
-                            <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-                        </figcaption>
-                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
-                    </div>
-                </div>
-                <div class="gallery-list col-md-4 col-xs-12">
-                    <div class="image-grid">
-                        <img src="https://static.pexels.com/photos/126400/pexels-photo-126400.jpeg">
-                        <figcaption>
-                            <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-                        </figcaption>
-                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
-                    </div>
-                </div>
-                <!-- 3 -->
-
-                <!-- 2 -->
-                <div class="gallery-list col-md-6 col-xs-12">
-                    <div class="image-grid">
-                        <img src="https://static.pexels.com/photos/7919/pexels-photo.jpg">
-                        <figcaption>
-                            <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-                        </figcaption>
-                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
-                    </div>
-                </div>
-                <div class="gallery-list col-md-6 col-xs-12">
-                    <div class="image-grid">
-                        <img src="https://static.pexels.com/photos/8879/pexels-photo.jpeg">
-                        <figcaption>
-                            <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-                        </figcaption>
-                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
-                    </div>
-                </div>
-                <!-- 2 -->
+        
 
                 <!-- 1 -->
                 <div class="gallery-list col-md-12 col-xs-12">
                     <div class="image-grid">
-                        <img src="https://static.pexels.com/photos/7919/pexels-photo.jpg">
-                        <figcaption>
-                            <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-                        </figcaption>
+                        <img data-aos="fade-right" data-aos-delay="100" src="https://i.ibb.co/GWmDWqD/01dfa84cde6bf621f1d5f691b13efc3d21c40f1a21.jpg">
+
                         <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
                     </div>
                 </div>
@@ -229,106 +154,22 @@
                 <!-- 3 -->
                 <div class="gallery-list col-md-4 col-xs-12">
                     <div class="image-grid">
-                        <img src="https://static.pexels.com/photos/7919/pexels-photo.jpg">
-                        <figcaption>
-                            <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-                        </figcaption>
-                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/dhlwfx?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                     </div>
                 </div>
                 <div class="gallery-list col-md-4 col-xs-12">
                     <div class="image-grid">
-                        <img src="https://static.pexels.com/photos/8879/pexels-photo.jpeg">
-                        <figcaption>
-                            <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-                        </figcaption>
-                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/c94f76?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                     </div>
                 </div>
                 <div class="gallery-list col-md-4 col-xs-12">
                     <div class="image-grid">
-                        <img src="https://static.pexels.com/photos/126400/pexels-photo-126400.jpeg">
-                        <figcaption>
-                            <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-                        </figcaption>
-                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/2xdyxe?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                     </div>
                 </div>
                 <!-- 3 -->
 
-                <!-- 2 -->
-                <div class="gallery-list col-md-6 col-xs-12">
-                    <div class="image-grid">
-                        <img src="https://static.pexels.com/photos/7919/pexels-photo.jpg">
-                        <figcaption>
-                            <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-                        </figcaption>
-                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
-                    </div>
-                </div>
-                <div class="gallery-list col-md-6 col-xs-12">
-                    <div class="image-grid">
-                        <img src="https://static.pexels.com/photos/8879/pexels-photo.jpeg">
-                        <figcaption>
-                            <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-                        </figcaption>
-                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
-                    </div>
-                </div>
-                <!-- 2 -->
-
-                <!-- 3 -->
-                <div class="gallery-list col-md-4 col-xs-12">
-                    <div class="image-grid">
-                        <img src="https://static.pexels.com/photos/7919/pexels-photo.jpg">
-                        <figcaption>
-                            <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-                        </figcaption>
-                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
-                    </div>
-                </div>
-                <div class="gallery-list col-md-4 col-xs-12">
-                    <div class="image-grid">
-                        <img src="https://static.pexels.com/photos/8879/pexels-photo.jpeg">
-                        <figcaption>
-                            <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-                        </figcaption>
-                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
-                    </div>
-                </div>
-                <div class="gallery-list col-md-4 col-xs-12">
-                    <div class="image-grid">
-                        <img src="https://static.pexels.com/photos/126400/pexels-photo-126400.jpeg">
-                        <figcaption>
-                            <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-                        </figcaption>
-                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
-                    </div>
-                </div>
-                <!-- 3 -->
-
-                <!-- 2 -->
-                <div class="gallery-list col-md-6 col-xs-12">
-                    <div class="image-grid">
-                        <img src="https://static.pexels.com/photos/7919/pexels-photo.jpg">
-                        <figcaption>
-                            <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-                        </figcaption>
-                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
-                    </div>
-                </div>
-                <div class="gallery-list col-md-6 col-xs-12">
-                    <div class="image-grid">
-                        <img src="https://static.pexels.com/photos/8879/pexels-photo.jpeg">
-                        <figcaption>
-                            <p class="font20 font-roboto-regular font-color-dark">click to expand</p>
-                        </figcaption>
-                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
-                    </div>
-                </div>
-                <!-- 2 -->
-
-
+             
 
             </div>
         </div>
