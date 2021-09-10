@@ -16,30 +16,30 @@
 
     
     <body>
-        
-
+    
         <div class="container">
             <div class="gallery row">
                 <!-- 3 -->
-                <div class="gallery-list col-md-4 col-xs-6">
+                <div class="gallery-list col-md-4 col-xs-12">
                     <div class="image-grid">
                         <img src="https://i.ibb.co/gm7vYYd/1.jpg" data-aos="fade" data-aos-delay="100" >
                         <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
                     </div>
                 </div>
-                <div class="gallery-list col-md-4 col-xs-6">
+                <div class="gallery-list col-md-4 col-xs-12">
                     <div class="image-grid">
                         <img src="https://i.ibb.co/Fmh1DFV/5.jpg" data-aos="fade">
                         <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
                     </div>
                 </div>
-                <div class="gallery-list col-md-4 col-xs-6">
+                <div class="gallery-list col-md-4 col-xs-12">
                     <div class="image-grid">
                         <img src="https://i.ibb.co/8NZJysR/7.jpg" data-aos="fade">
                         <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
                     </div>
                 </div>
                 <!-- 3 -->
+            
 
                 <!-- 2 -->
                 <div class="gallery-list col-md-6 col-xs-12">
