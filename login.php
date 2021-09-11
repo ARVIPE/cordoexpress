@@ -1,16 +1,16 @@
 <?php
 include("includes/a_config.php");
-//require_once 'controller/controladorUsuarios.php';
+require_once 'controller/controladorUsuarios.php';
 ?>
 
 <?php 
 if(isset($_POST["enviar"])){
     $usuario = ControladorUsuarios::buscarUsuario($_POST["pass"]);
     if ($usuario == null) {
-        $_SESSION["bloqueadoNormal"] = "Usuario o Contraseña incorrectos";
+        echo "usuario incorrecto";
     }
     if ($usuario != null) {
-        $_SESSION["e"] = "Usuario o Contraseña correcto";
+        echo "usuario correcto";
     } 
 }
 ?>
