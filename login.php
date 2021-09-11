@@ -1,6 +1,6 @@
 <?php
 include("includes/a_config.php");
-require_once 'controller/controladorUsuarios.php';
+//require_once 'controller/controladorUsuarios.php';
 ?>
 
 <?php 
