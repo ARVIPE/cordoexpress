@@ -4,7 +4,7 @@ require_once 'controller/controladorUsuarios.php';
 ?>
 
 <?php 
-if(isset($_POST["enviar"])){
+/**if(isset($_POST["enviar"])){
     $usuario = ControladorUsuarios::buscarUsuario($_POST["pass"]);
     if ($usuario == null) {
         $_SESSION["bloqueadoNormal"] = "Usuario o Contraseña incorrectos";
@@ -12,7 +12,7 @@ if(isset($_POST["enviar"])){
     if ($usuario != null) {
         $_SESSION["e"] = "Usuario o Contraseña correcto";
     } 
-}
+}**/
 ?>
 
 <!DOCTYPE html>
