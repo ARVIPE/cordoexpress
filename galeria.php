@@ -49,10 +49,10 @@ include("includes/a_config.php");
 
                 <!-- 2 -->
                 <div class="gallery-list col-md-6 col-xs-12">
-                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe data-aos="fade-right" data-aos-delay="100" src="https://streamable.com/e/uhww31?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen allow="autoplay" style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe data-aos="fade-right" data-aos-delay="100" src="https://streamable.com/e/uhww31?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen allow="autoplay" muted style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <div class="gallery-list col-md-6 col-xs-12">
-                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe data-aos="fade-left" data-aos-delay="100" src="https://streamable.com/e/9326d8?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen allow="autoplay" style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe data-aos="fade-left" data-aos-delay="100" src="https://streamable.com/e/9326d8?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen allow="autoplay"  muted style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <!-- 2 -->
 
@@ -90,12 +90,12 @@ include("includes/a_config.php");
                 <!-- 2 -->
                 <div class="gallery-list col-md-6 col-xs-12">
                     <div class="image-grid">
-                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/2wg1oe?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/2wg1oe?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen muted style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                     </div>
                 </div>
                 <div class="gallery-list col-md-6 col-xs-12">
                     <div class="image-grid">
-                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/jxv70j?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/jxv70j?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen muted style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                     </div>
                 </div>
                 <!-- 2 -->
@@ -154,17 +154,17 @@ include("includes/a_config.php");
                 <!-- 3 -->
                 <div class="gallery-list col-md-4 col-xs-12">
                     <div class="image-grid">
-                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/dhlwfx?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe muted src="https://streamable.com/e/dhlwfx?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                     </div>
                 </div>
                 <div class="gallery-list col-md-4 col-xs-12">
                     <div class="image-grid">
-                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/c94f76?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe muted src="https://streamable.com/e/c94f76?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                     </div>
                 </div>
                 <div class="gallery-list col-md-4 col-xs-12">
                     <div class="image-grid">
-                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/2xdyxe?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe muted src="https://streamable.com/e/2xdyxe?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                     </div>
                 </div>
                 <!-- 3 -->

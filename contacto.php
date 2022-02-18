@@ -109,14 +109,21 @@ include("includes/a_config.php");
 
                                                 </script><?php
                                                         }
-                                                    } else { ?>
-                                            <script>
-                                               // alert("Tienes que realizar el captcha");
-                                            </script><?php
+                                                    } else { 
+                                            
                                                     }
                                                     } ?>
 
+                                    
+                                                <?php 
+                                                    if(isset($_POST['enviar']) && $_COOKIE["captcha"] == 0){
+                                                        ?><script>alert("Tienes que hacer el captcha")</script><?php
 
+
+                                                    }
+
+
+                                                ?>
 
 
 
