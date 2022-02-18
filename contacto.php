@@ -23,14 +23,6 @@ include("includes/a_config.php");
                 
                 
             }, );
-
-
-
-
-
-
-
-
         };
     </script>
 
@@ -71,9 +63,11 @@ include("includes/a_config.php");
                                         <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
                                     </div>
 
-
-                                    <div style="margin-left: 22%;" id="html_element" name="enviar"></div>
-
+                                    <div class="row">
+                                        <div class="mx-auto">
+                                            <div style="display: inline-block;" id="html_element" name="enviar"></div>
+                                        </div>
+                                    </div>
                                     <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
                                     </script>
 
@@ -117,7 +111,7 @@ include("includes/a_config.php");
                                                         }
                                                     } else { ?>
                                             <script>
-                                                alert("Tienes que realizar el captcha");
+                                               // alert("Tienes que realizar el captcha");
                                             </script><?php
                                                     }
                                                     } ?>
