@@ -71,11 +71,11 @@
             }else{
               ?><li><a class="nav-link scrollto" href="contacto.php">Contacto</a></li><?php
             }
-            if($_SERVER["SCRIPT_NAME"] == "/login.php"){
+            /**if($_SERVER["SCRIPT_NAME"] == "/login.php"){
               ?><li><a class="nav-link scrollto active" href="login.php">Login</a></li><?php
             }else{
               ?><li><a class="nav-link scrollto" href="login.php">Login</a></li><?php
-            }
+            }**/
           ?>
 
         </ul>
