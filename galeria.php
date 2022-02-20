@@ -18,9 +18,7 @@ include("includes/a_config.php");
 <?php include("includes/navbar.php"); ?>
 
 <body>
-    <!-- partial:index.partial.html -->
-
-
+    
     <body>
 
         <div class="container">
