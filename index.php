@@ -16,7 +16,7 @@ include("includes/a_config.php");
 
 
         <main>
-            <section class="content">
+            <section class=x"content">
                 <?php include("includes/principal.php"); ?>
             </section>
         </main>

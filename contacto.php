@@ -86,7 +86,7 @@ include("includes/a_config.php");
 
 
                                                     $sender = $_POST['email'];
-                                                    $recipient = 'artfdl963@gmail.com';
+                                                    $recipient = 'contabilidad@cordoexpress.es';
 
                                                     $subject = $_POST['subject'];
                                                     $message =  $_POST['message'];

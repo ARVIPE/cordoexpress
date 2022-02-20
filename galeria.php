@@ -9,7 +9,7 @@ include("includes/a_config.php");
 
 <head>
     <?php include("includes/MetaTags.php"); ?>
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+
 
     <link rel="stylesheet" href="./galeria/style.css">
 
@@ -49,10 +49,10 @@ include("includes/a_config.php");
 
                 <!-- 2 -->
                 <div class="gallery-list col-md-6 col-xs-12">
-                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe data-aos="fade-right" data-aos-delay="100" src="https://streamable.com/e/uhww31?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen allow="autoplay" muted style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe data-aos="fade-right" data-aos-delay="100" src="https://streamable.com/e/uhww31?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen allow="autoplay"  style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <div class="gallery-list col-md-6 col-xs-12">
-                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe data-aos="fade-left" data-aos-delay="100" src="https://streamable.com/e/9326d8?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen allow="autoplay"  muted style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe data-aos="fade-left" data-aos-delay="100" src="https://streamable.com/e/9326d8?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen allow="autoplay"  style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
                 </div>
                 <!-- 2 -->
 
@@ -198,6 +198,7 @@ include("includes/a_config.php");
     <script src="assets/vendor/purecounter/purecounter.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
 
 
     <!-- Template Main JS File -->
