@@ -4,7 +4,7 @@
     <!--.hero-slide-->
 
     <div class="hero-slide">
-      <img alt="Mars Image" class="img-responsive cover" src="https://i.ibb.co/hyTT5dV/01b415a6b62abd4f528d86aee28fb4b402d1db3bb3.jpg" >
+      <img alt="Mars Image" class="img-responsive cover" src="media/images/3.jpg" >
       <div class="header-content text-white position-absolute col-lg-4" data-aos="fade-in" data-aos-delay="100">
         <h1 class="mb-4">Bienvenido a <span class="d-block font-weight-bold">CordoExpress</span></h1>
         <a class="btn btn-primary btn-lg w-max mt-2" href="contacto.php" tabindex="0">Contacto</a>
@@ -13,7 +13,7 @@
     <!--.hero-slide-->
 
     <div class="hero-slide">
-      <img alt="Mars Image" class="img-responsive cover" src="https://i.ibb.co/ScsVpR9/01415a23b84c242529b439bbd7e71f221a11ec9940.jpg">
+      <img alt="Mars Image" class="img-responsive cover" src="media/images/4.jpg">
       <div class="header-content text-white position-absolute slide col-lg-4" data-aos="fade-right" data-aos-delay="100">
         <h1 class="mb-4">CordoExpress</h1>
         <p class="font-weight-bold">Confíe su mercancía en un operador de transporte de amplia experiencia</p>
@@ -23,7 +23,7 @@
     <!--.hero-slide-->
 
     <div class="hero-slide">
-      <img alt="Mars Image" class="img-responsive cover" src="https://i.ibb.co/7r4fmVb/01b07d9f8a3d5a9280820012ce0906a3299d1e0343.jpg" >
+      <img alt="Mars Image" class="img-responsive cover" src="media/images/2.jpg" >
       <div class="header-content text-white position-absolute slide col-lg-4" data-aos="fade-right" data-aos-delay="100">
         <h1 class="mb-4">Transportes</h1>
         <p>Transporte de por carretera, fundamentalmente desarrollando logística, transporte y distribución en la provincia de Córdoba. </p>

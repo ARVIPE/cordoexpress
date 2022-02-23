@@ -9,8 +9,6 @@ include("includes/a_config.php");
 
 <head>
     <?php include("includes/MetaTags.php"); ?>
-
-
     <link rel="stylesheet" href="./galeria/style.css">
 
 </head>
@@ -163,6 +161,154 @@ include("includes/a_config.php");
                 <div class="gallery-list col-md-4 col-xs-12">
                     <div class="image-grid">
                     <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe muted src="https://streamable.com/e/2xdyxe?autoplay=1&mute=1&loop=1" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                    </div>
+                </div>
+                <!-- 3 -->
+
+                
+                <!-- 3 -->
+                <div class="gallery-list col-md-4 col-xs-12">
+                <div class="image-grid">
+                        <img src="https://i.ibb.co/pvfxcTk/01ce4f448e149457f6036ba5005fe87de0d483cbc8.jpg" data-aos="fade">
+                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+                    </div>
+                </div>
+                <div class="gallery-list col-md-4 col-xs-12">
+                <div class="image-grid">
+                        <img src="https://i.ibb.co/qB5bFQ2/019167cf3e0d601f785167cde521cc505866fa87ef.jpg" data-aos="fade">
+                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+                    </div>
+                </div>
+                <div class="gallery-list col-md-4 col-xs-12">
+                <div class="image-grid">
+                        <img src="https://i.ibb.co/XLX2bD3/01ca06ef8e2d9b270d60a254eaa0e5596defa48cf3.jpg" data-aos="fade">
+                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+                    </div>
+                </div>
+                <!-- 3 -->
+                
+                <!-- 3 -->
+                <div class="gallery-list col-md-4 col-xs-12">
+                <div class="image-grid">
+                        <img src="media/images/foto (1).jpg" data-aos="fade">
+                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+                    </div>
+                </div>
+                <div class="gallery-list col-md-4 col-xs-12">
+                <div class="image-grid">
+                        <img src="media/images/foto (2).jpg" data-aos="fade">
+                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+                    </div>
+                </div>
+                <div class="gallery-list col-md-4 col-xs-12">
+                <div class="image-grid">
+                        <img src="media/images/foto (3).jpg" data-aos="fade">
+                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+                    </div>
+                </div>
+                <!-- 3 -->
+                
+                <!-- 3 -->
+                <div class="gallery-list col-md-4 col-xs-12">
+                <div class="image-grid">
+                        <img src="media/images/foto (4).jpg" data-aos="fade">
+                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+                    </div>
+                </div>
+                <div class="gallery-list col-md-4 col-xs-12">
+                <div class="image-grid">
+                        <img src="media/images/foto (5).jpg" data-aos="fade">
+                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+                    </div>
+                </div>
+                <div class="gallery-list col-md-4 col-xs-12">
+                <div class="image-grid">
+                        <img src="media/images/foto (6).jpg" data-aos="fade">
+                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+                    </div>
+                </div>
+                <!-- 3 -->
+                
+                <!-- 3 -->
+                <div class="gallery-list col-md-4 col-xs-12">
+                <div class="image-grid">
+                        <img src="media/images/foto (7).jpg" data-aos="fade">
+                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+                    </div>
+                </div>
+                <div class="gallery-list col-md-4 col-xs-12">
+                <div class="image-grid">
+                        <img src="media/images/foto (8).jpg" data-aos="fade">
+                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+                    </div>
+                </div>
+                <div class="gallery-list col-md-4 col-xs-12">
+                <div class="image-grid">
+                        <img src="media/images/foto (9).jpg" data-aos="fade">
+                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+                    </div>
+                </div>
+                <!-- 3 -->
+
+                 <!-- 3 -->
+                 <div class="gallery-list col-md-4 col-xs-12">
+                    <div class="image-grid">
+                        <img src="media/images/anchas (1).jpg" data-aos="fade" data-aos-delay="100">
+                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+                    </div>
+                </div>
+                <div class="gallery-list col-md-4 col-xs-12">
+                    <div class="image-grid">
+                        <img src="media/images/anchas (2).jpg" data-aos="fade">
+                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+                    </div>
+                </div>
+                <div class="gallery-list col-md-4 col-xs-12">
+                    <div class="image-grid">
+                        <img src="media/images/anchas (3).jpg" data-aos="fade">
+                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+                    </div>
+                </div>
+                <!-- 3 -->
+
+                 <!-- 3 -->
+                 <div class="gallery-list col-md-4 col-xs-12">
+                    <div class="image-grid">
+                        <img src="media/images/foto (10).jpg" data-aos="fade" data-aos-delay="100">
+                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+                    </div>
+                </div>
+                <div class="gallery-list col-md-4 col-xs-12">
+                    <div class="image-grid">
+                        <img src="media/images/foto (11).jpg" data-aos="fade">
+                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+                    </div>
+                </div>
+                <div class="gallery-list col-md-4 col-xs-12">
+                    <div class="image-grid">
+                        <img src="media/images/foto (12).jpg" data-aos="fade">
+                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+                    </div>
+                </div>
+                <!-- 3 -->
+
+                <!-- 3 -->
+                   <div class="gallery-list col-md-4 col-xs-12">
+                    <div class="image-grid">
+                        <img src="media/images/anchas (4).jpg" data-aos="fade" data-aos-delay="100">
+                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+                    </div>
+                </div>
+                <div class="gallery-list col-md-4 col-xs-12">
+                    <div class="image-grid">
+                        <img src="media/images/anchas (5).jpg" data-aos="fade">
+                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
+                    </div>
+                </div>
+                <div class="gallery-list col-md-4 col-xs-12">
+                    <div class="image-grid">
+                        <img src="media/images/anchas (6).jpg" data-aos="fade">
+                        <a class="click-to-expand" href="#" data-toggle="modal" data-target="#modalGallery"></a>
                     </div>
                 </div>
                 <!-- 3 -->

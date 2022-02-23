@@ -37,15 +37,15 @@ include("includes/a_config.php");
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="https://i.ibb.co/L1QgL7n/40882d1d-2a10-470e-ac1f-0855647791ad.jpg" style="width:100%;">
+                                <img src="media/images/nosotros1.jpg" style="width:100%;">
                             </div>
 
                             <div class="item">
-                                <img src="https://i.ibb.co/VDwWTmW/436fb734-990c-494d-b530-a4c4ab2ca3d7.jpg" style="width:100%;">
+                                <img src="media/images/nosotros2.jpg" style="width:100%;">
                             </div>
 
                             <div class="item">
-                                <img src="https://i.ibb.co/KVF6rgB/6d68f379-4013-4685-8d64-77c23b4dc775.jpg" style="width:100%;">
+                                <img src="media/images/nosotros.jpg" style="width:100%;">
                             </div>
                         </div>
 
