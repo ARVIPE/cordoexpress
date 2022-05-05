@@ -1,11 +1,10 @@
 <?php
 include("includes/a_config.php");
 
-
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <?php include("includes/MetaTags.php"); ?>

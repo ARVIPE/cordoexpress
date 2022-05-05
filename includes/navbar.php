@@ -25,8 +25,8 @@
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope d-flex align-items-center">
-            <form method="post" action="mailto:contabilidad@cordoexpress.es">
-              <input type="submit" value="contabilidad@cordoexpress.es" style="background: none; border: none; color: white;">
+            <form method="post" action="mailto:info@cordoexpress.es">
+              <input type="submit" value="info@cordoexpress.es" style="background: none; border: none; color: white;">
             </form>
         </i>
         <i class="bi bi-phone d-flex align-items-center"><span>957 42 11 11</span></i>
@@ -71,11 +71,11 @@
             }else{
               ?><li><a class="nav-link scrollto" href="contacto.php">Contacto</a></li><?php
             }
-            /**if($_SERVER["SCRIPT_NAME"] == "/login.php"){
-              ?><li><a class="nav-link scrollto active" href="login.php">Login</a></li><?php
+            if($_SERVER["SCRIPT_NAME"] == "/login.php"){
+              ?><li><a class="nav-link scrollto active" href="https://portal.palletways.com/login_v2.php">Login</a></li><?php
             }else{
-              ?><li><a class="nav-link scrollto" href="login.php">Login</a></li><?php
-            }**/
+              ?><li><a class="nav-link scrollto" href="https://portal.palletways.com/login_v2.php">Login</a></li><?php
+            }
           ?>
 
         </ul>

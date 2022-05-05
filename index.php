@@ -14,7 +14,6 @@ include("includes/a_config.php");
 
         <?php include("includes/navbar.php"); ?>
 
-
         <main>
             <section class=x"content">
                 <?php include("includes/principal.php"); ?>

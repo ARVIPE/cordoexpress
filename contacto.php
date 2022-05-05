@@ -86,7 +86,7 @@ include("includes/a_config.php");
 
 
                                                     $sender = $_POST['email'];
-                                                    $recipient = 'contabilidad@cordoexpress.es';
+                                                    $recipient = 'info@cordoexpress.es';
 
                                                     $subject = $_POST['subject'];
                                                     $message =  $_POST['message'];
@@ -149,7 +149,7 @@ include("includes/a_config.php");
                                     <div class="info-box  mb-4">
                                         <i class="bx bx-envelope"></i>
                                         <h3>Nuestro correo</h3>
-                                        <p>contabilidad@cordoexpress.es</p>
+                                        <p>info@cordoexpress.es</p>
                                     </div>
                                 </div>
 
