@@ -1,40 +1,20 @@
-<!-- ===== Carrousel ====== -->
-<header class="hero-text">
-  <div class="hero" data-arrows="true" data-autoplay="true">
-    <!--.hero-slide-->
-
-    <div class="hero-slide">
-      <img alt="Mars Image" class="img-responsive cover" src="media/images/3.jpg" >
-      <div class="header-content text-white position-absolute col-lg-4" data-aos="fade-in" data-aos-delay="100">
-        <h1 class="mb-4">Bienvenido a <span class="d-block font-weight-bold">CordoExpress</span></h1>
-        <a class="btn btn-primary btn-lg w-max mt-2" href="contacto.php" tabindex="0">Contacto</a>
-      </div>
-    </div>
-    <!--.hero-slide-->
-
-    <div class="hero-slide">
-      <img alt="Mars Image" class="img-responsive cover" src="media/images/4.jpg">
-      <div class="header-content text-white position-absolute slide col-lg-4" data-aos="fade-right" data-aos-delay="100">
-        <h1 class="mb-4">CordoExpress</h1>
-        <p class="font-weight-bold">Confíe su mercancía en un operador de transporte de amplia experiencia</p>
-        <a class="btn btn-primary btn-lg w-max mt-2" href="contacto.php" tabindex="0">Contacto</a>
-      </div>
-    </div>
-    <!--.hero-slide-->
-
-    <div class="hero-slide">
-      <img alt="Mars Image" class="img-responsive cover" src="media/images/2.jpg" >
-      <div class="header-content text-white position-absolute slide col-lg-4" data-aos="fade-right" data-aos-delay="100">
-        <h1 class="mb-4">Transportes</h1>
-        <p>Transporte de por carretera, fundamentalmente desarrollando logística, transporte y distribución en la provincia de Córdoba. </p>
-        <a class="btn btn-primary btn-lg w-max mt-2" href="contacto.php" tabindex="0">Contacto</a>
+<header>
+  <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+  <div class="overlay"></div>
+  <!-- The HTML5 video element that will create the background video on the header -->
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="../media/images/video.mp4" type="video/mp4">
+  </video>
+  <!-- The header content -->
+  <div class="container h-100">
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="w-100 text-white">
+        <h1 class="display-3">Video Header</h1>
+        <p class="lead mb-0">Using HTML5 Video and Bootstrap</p>
       </div>
     </div>
   </div>
-  <!--.hero-->
 </header>
-<!-- ==== End Carrousel ==== -->
-
 
 <!-- === Start description === --->
 <div class="container" style="margin-top: 50px; margin-bottom: 30px;">
@@ -44,9 +24,7 @@
       <p>Si quiere más información sobre nuestros servicios puede llamarnos o utilizar la página de <a href="contacto.php">contacto</a> que aparece en la web. </br> Servicios: Transporte de carga paletizada fraccionada, completa, grupaje, cualquier servicio que nos demande en transporte nacional (doméstico) y Europeo.</p>
     </div>
     <div class="col-md-6 col-lg-6 col-xl-6 col-sm-0" data-aos="fade-right">
-
       <img data-aos="fade-right" data-aos-delay="100" src="https://i.ibb.co/4dRZ9Yy/descripcion1.jpg" class="imagenDescripcion" >
-
     </div>
   </div>
   <hr style="height:2px;border:none;color:#7c7c7c;;background-color:#7c7c7c;;" />
