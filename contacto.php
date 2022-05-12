@@ -32,58 +32,25 @@ include("includes/a_config.php");
 
 <body class="fondoPrincipal">
     <div class="container-fluid p-0">
-
         <?php include("includes/navbar.php"); ?>
-
-
         <main>
             <section class="content">
                 <section id="contact" class="contact" style="margin-top: 50px;">
                     <div class="container" data-aos="fade-up">
                         <div class="row" data-aos="fade-up" data-aos-delay="100">
-
-                            <div class="col-lg-6 ">
+                            <div class="col">
                                 <iframe class="mb-4 mb-lg-0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Calle%20Ing.%20Ribera,%2013,%2014013%20C%C3%B3rdoba%20ES%20ES-14009+(Mi%20nombre%20de%20egocios)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" frameborder="0" style="border:0; width: 100%; height: 365px;" allowfullscreen></iframe>
-                            </div>
+                            </div>                                    
+                            <iframe class="mb-4 mb-lg-0" src="https://docs.google.com/forms/d/e/1FAIpQLSdTdtbwRO4mrnYGnIWX7shzMh-zIik-9K7oIKmi1nIHH3JOaA/viewform?embedded=true" width="500" height="400" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
 
-                            <div class="col-lg-6">
-                                <form action="" method="post">
-                                    <div class="row">
-                                        <div class="col form-group">
-                                            <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" required>
-                                        </div>
-                                        <div class="col form-group">
-                                            <input type="text" class="form-control" name="email" id="email" placeholder="Tu Correo" required>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
-                                    </div>
 
-                                    <div class="row">
-                                        <div class="mx-auto">
-                                            <div style="display: inline-block;" id="html_element" name="enviar"></div>
-                                        </div>
-                                    </div>
-                                    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
-                                    </script>
-
-                                    <div class="text-center"><button type="submit" class="btn btn-info" name="enviar">Enviar mensaje</button></div>
-
-                                </form>
-
-                                
-                                
+    
                                 <?php   
                                     if (isset($_COOKIE["captcha"])) {
                                         if ($_COOKIE["captcha"] != "0") {
                                             if (isset($_POST['enviar'])) {
 
                                                 if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject']) && !empty($_POST['message'])) {
-
 
                                                     $sender = $_POST['email'];
                                                     $recipient = 'info@cordoexpress.es';
